@@ -1,0 +1,17 @@
+Some Helpful Tips to Get Better Results
+=================================================
+-Use meaningful test scenarios (use cases are helpful) to construct test plans with 'real-life' test cases.
+-Run JMeter on a machine other than that running the application you
+are testing.
+-Make sure that the machine running JMeter has sufficient network bandwidth, so the network connection has little to no impact on the results. 
+Also, the machine running JMeter should have enough computing power (memory, CPU) to generate load.
+-Let JMeter Test Plan run for long time periods, hours or days, or for a large number of iterations. This may yield a smaller standard deviation, 
+giving better average results. In addition, this practice may test system availability rate and may highlight any decay in server performance.
+-Ensure that the application is stable and optimized for one user before testing it for concurrent users.
+-Incorporate 'thinking time' or delays using Timers in your JMeter Test Plan.
+-Conduct tests under a monitored and controlled environment, to prevent other users from affecting JMeter results.
+-Keep a close watch on the four main things: processor, memory, disk,and network.
+-Only run JMeter against servers that you are assigned to test, else you may be accused of causing DoS attacks.
+
+
+-To exclude or include certain types of files you can use .*/.{insert file extension}
